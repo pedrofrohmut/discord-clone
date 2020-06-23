@@ -21,7 +21,7 @@ const ServerButton: React.FC<Props> = ({
     isHome={isHome}
     hasNotifications={hasNotifications}
     mentions={mentions}
-    className={selected ? "active" : ""}
+    className={selected ? "ServerButton active" : "ServerButton "}
   >
     {isHome && <img src={Logo} alt="RocketSeat" />}
   </Button>

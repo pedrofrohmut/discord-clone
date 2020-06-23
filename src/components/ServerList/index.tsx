@@ -5,10 +5,10 @@ import ServerButton from "../ServerButton"
 import { Container, Separator } from "./styles"
 
 const ServerList: React.FC = () => (
-  <Container>
+  <Container className="ServerList">
     <ServerButton isHome />
 
-    <Separator />
+    <Separator className="Separator" />
 
     <ServerButton mentions={3} />
     <ServerButton hasNotifications />
