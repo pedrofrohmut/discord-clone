@@ -5,7 +5,7 @@ import ChannelButton from "../ChannelButton"
 import { Container, Category, AddCategoryIcon } from "./styles"
 
 const ChannelList: React.FC = () => (
-  <Container>
+  <Container className="ChannelList">
     <Category>
       <span>CANAIS DE TEXTO</span>
       <AddCategoryIcon />
